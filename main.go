@@ -34,5 +34,6 @@ func cli(args []string) (status int, msg string) {
   } else {
     return 1, "Error: 3 arguments needed"
   }
+  
   return
 }

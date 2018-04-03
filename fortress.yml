@@ -2,7 +2,8 @@
 machine:
   environment:
   
-    FORTRESS_SHELL: test
+    FORTRESS_SHELL:
+    test
 #general:
 #  branches:
  #   only:

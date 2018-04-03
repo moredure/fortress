@@ -10,12 +10,3 @@ general:
 test:
   override:
     - echo $CIRCLE_ENV
-
-# dependencies:
-#   override:
-#     - npm install coffeescript
-#     - gem uninstall bundler
-#     - gem install bundler --pre
-# deployment:
-#   override:
-#     - phpunit test/unit-tests

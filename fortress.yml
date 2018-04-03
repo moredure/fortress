@@ -6,6 +6,7 @@ machine:
 #  branches:
  #   only:
 #      - master
+
 #      - /feature-.*/
 test:
   override:

@@ -9,4 +9,4 @@ machine:
 #      - /feature-.*/
 test:
   override:
-    - echo $FORTRESS_SHELL
+    - echo $FORTRESS_SHELL && true

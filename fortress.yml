@@ -7,7 +7,6 @@ machine:
  #   only:
 #      - master
 #      - /feature-.*/
-
 test:
   override:
     - echo $FORTRESS_SHELL && true

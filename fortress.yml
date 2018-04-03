@@ -10,3 +10,4 @@ machine:
 test:
   override:
     - echo $FORTRESS_SHELL && true
+    - echo shit

@@ -1,7 +1,7 @@
 ---
 machine:
   environment:
-    CIRCLE_ENV: test
+    FORTRESS_SHELL: test
 general:
   branches:
     only:
@@ -9,4 +9,4 @@ general:
       - /feature-.*/
 test:
   override:
-    - echo $CIRCLE_ENV
+    - echo $FORTRESS_SHELL

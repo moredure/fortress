@@ -2,11 +2,11 @@
 machine:
   environment:
     FORTRESS_SHELL: test
-general:
-  branches:
-    only:
-      - master
-      - /feature-.*/
+#general:
+#  branches:
+ #   only:
+#      - master
+#      - /feature-.*/
 test:
   override:
     - echo $FORTRESS_SHELL

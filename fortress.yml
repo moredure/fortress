@@ -2,15 +2,9 @@
 machine:
   environment:
   FORTRESS_SHELL:    test
-#general:
-#  branches:
- #   only:
-#      - master
-
-
-#      - /feature-.*/
-
 test:
   override:
-    - echo $FORTRESS_SHELL && true
+    - echo $FORTRESS_SHELL
+    - sleep 30
     - echo shit
+    - curl http://artii.herokuapp.com/make?text=ASCII+art

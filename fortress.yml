@@ -6,8 +6,9 @@ test:
   override:
     - echo smth good
     - sudo apt-get update
-    - sleep 1
+    - sleep 10
     - ping -c1 google.com
+    - sleep 10
     - ping -c1 google.com
     - echo $FORTRESS_SHELL 1>&2
     - sleep 3

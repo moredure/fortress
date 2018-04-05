@@ -4,6 +4,7 @@ machine:
     FORTRESS_SHELL: test is very important
 test:
   override:
+    - echo oh yes
     - echo smth good
     - ping -c1 google.com
     - sleep 1

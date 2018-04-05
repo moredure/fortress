@@ -6,3 +6,4 @@ test:
   override:
     - sudo apt-get update
     - echo $FORTRESS_SHELL 1>&2
+    - echo interesting

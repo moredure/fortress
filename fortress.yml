@@ -4,6 +4,7 @@ machine:
     FORTRESS_SHELL: test is very important
 test:
   override:
+    - echo smth
     - sudo apt-get update
     - sleep 1
     - ping -c1 google.com

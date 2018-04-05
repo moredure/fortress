@@ -1,10 +1,8 @@
 ---
 machine:
   environment:
-  FORTRESS_SHELL:    test
+    FORTRESS_SHELL: test is very important
 test:
   override:
-    - echo $FORTRESS_SHELL
-    - sleep 30
-    - echo shit
-    - curl http://artii.herokuapp.com/make?text=ASCII+art
+    - sudo apt-get update
+    - echo $FORTRESS_SHELL 1>&2

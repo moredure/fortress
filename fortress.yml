@@ -6,7 +6,9 @@ test:
   override:
     - echo oh ye
     - ping -c1 google.com
-    - sleep 2
-    - ping -c1 google.com
+    - sleep 1
+    - echo oh no
+    - sleep 12
+    - echo but its all right
     - echo $FORTRESS_SHELL 1>&2
     - sleep 3

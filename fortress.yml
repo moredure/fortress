@@ -4,7 +4,7 @@ machine:
     FORTRESS_SHELL: test is very important
 test:
   override:
-    - echo oh ye shit fuck
+    - echo oh ye 
     - ping -c1 google.com
     - echo $FORTRESS_SHELL 1>&2
     - sleep 3

@@ -10,4 +10,3 @@ test:
     - ping -c1 google.com
     - echo $FORTRESS_SHELL 1>&2
     - sleep 3
-    - echo fuck
